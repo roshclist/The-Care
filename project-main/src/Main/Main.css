@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&family=Song+Myung&display=swap');
+
+body {
+    margin:-8px;
+}
+
+#title_frame {
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px solid black;
+}
+
+#list_frame {
+    width: 100%;
+    height: 45px;
+    box-shadow : 0 5px 20px -4px;
+}
+
+
+#list_button_frame {
+    float: left;
+    width:80%;
+    height: 45px;
+
+}
+
+#option_frame {
+    float: right;
+
+    width:20%;
+    height: 45px;
+
+    border-left: 3px solid black;
+    box-sizing: border-box;
+}
+
+
+#map_button {
+    display:grid;
+    align-items:center; 
+    text-align: center; 
+
+    width: 20%;
+    height: 34px;
+    float: left;
+    font-family:'Song Myung' , serif;
+    font-size: 30px;
+}
+
+.button {
+    display:grid;
+    align-items:center; 
+    text-align: center; 
+    background-color: white;
+
+
+    width: 20%;
+    height: 34px;
+    float: left;
+    font-family:'Song Myung' , serif;
+    font-size: 40px;
+
+    border: 0;
+    outline: 0;
+}
+
+
+.button_font {
+    margin-top:10px;
+    font-size: 20px;
+}
+
+#login_frame {
+    float: right;
+    display:grid;
+    align-items:center; 
+    text-align: center; 
+
+    width: 20%;
+    height: 50px;
+}   
+
+.login_button {
+    float: left;
+
+    align-items:center; 
+    text-align: center; 
+    width:50%;
+    font-family:'Song Myung' , serif;
+
+    border: 0;
+    outline: 0;
+    background-color: rgba( 255, 255, 255, 0.0 );
+}
+
+.login_button {
+    font-size: 15px;
+}
+
+#login_button{
+    float: left;
+}
+
+#signup_button {
+    float: right;
+}
+
+#login_frame_2 {
+    float: left;
+
+    align-items:center; 
+    text-align: center; 
+
+    width: 80%;
+    height: 50px;
+}
+
+#search_frame {
+    margin-top:100px;
+    width: 900px;
+    height: 500px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.select {
+    margin-top:20px;
+    width: 200px;
+    font-family:'Song Myung' , serif;
+    font-size: 30px;
+}

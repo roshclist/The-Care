@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&family=Song+Myung&display=swap');
+
+#login_bar {
+  width:420px;
+  height: 2px;
+  background-color: black;
+}
+
+#haerder_font {
+  font-size: 40px;
+  margin-bottom:10px;
+}
+
+#userid {
+  width: 410px;
+  height: 38px;
+}
+
+#userpw {
+  width: 410px;
+  height: 38px;
+}
+
+#login_submit {
+  width: 418px;
+  height: 44px;
+}
+
+#login_button_page_font {
+  font-size: 20px;
+}
+
+#save_id_frame {
+  margin-right: 340px;
+}
+
+#login_option_frame{
+  display: flex;
+  justify-content: center;
+  content: "";
+  list-style: none;
+  padding-left: 0px;
+}
